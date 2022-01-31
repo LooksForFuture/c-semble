@@ -3,7 +3,7 @@ from os import system
 from json import loads
 
 if len(argv) != 2:
-    print('You should give the name of ou projec\'s json file!')
+    print('You should give the name of your project\'s json file!')
     quit(-1)
 
 with open(argv[1]) as file:
